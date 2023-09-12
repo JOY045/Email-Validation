@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validation</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS Link -->
+
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- Font Awesome CDN Link -->
+
+</head>
+<body>
+    <div class="content">
+        <header>Email Validation</header>
+        <form action="#">
+            <div class="field">
+                <input onkeyup="check()" id="email" type="text" autocomplete="off" placeholder="Enter Email Address">
+                
+                <div class="icons">
+                    <span class="icon1 fas fa-exclamation"></span>
+                    <span class="icon2 fas fa-check"></span>
+                </div>
+            </div>
+
+            <div class="error-text">
+                Please Enter Valid Email Address
+            </div>
+
+            <button>Submit</button>
+        </form>
+    </div>
+
+    <!-- Javascript Link -->
+    <script src="script.js"></script>
+    <!-- Javascript Link -->
+</body>
+</html>
